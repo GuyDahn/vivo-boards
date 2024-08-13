@@ -11,7 +11,7 @@ function ProductCard({ product }) {
                 <div className="text-gray-600 text-xs" dangerouslySetInnerHTML={{ __html: product.body_html }} />
             </div>
             <div className="flex justify-between items-center mt-4 px-2">
-                <p className="text-gray-800 font-bold">{product.variants[0].price}</p>
+                <p className="text-gray-800 font-bold">${product.variants[0].price}</p>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Buy Now
                 </button>
