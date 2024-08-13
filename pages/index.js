@@ -23,7 +23,7 @@ export default function Home () {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         height: '150vh',
-        opacity: '0.9'
+        back: '0.9'
       }}
     >
       <Header />

@@ -31,7 +31,7 @@ function ProductCard ({ product }) {
             
           ${product.variants[0].price}
         </p>
-        <button className='bg-blue-100 hover:bg-blue-500 text-gray-700 font-bold py-2 px-4 rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
+        <button className='bg-blue-100 hover:bg-blue-500 text-gray-700 font-bold py-2 px-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
           Choose Options
         </button>
       </div>
