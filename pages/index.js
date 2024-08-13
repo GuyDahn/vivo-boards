@@ -16,10 +16,16 @@ export default function Home () {
   }, [])
 
   return (
-    <div className=''>
-      {/* <h1 className='text-4xl font-bold mb-10 text-center text-gray-800'>
-        Wivo Boards
-      </h1> */}
+    <div
+      style={{
+        backgroundImage: `url(https://cdn.openart.ai/published/0gttZSQCpsDi4Ide7H7T/rz252SjM_D39w_1024.webp)`,
+        backgroundRepeat: 'repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        height: '150vh',
+        opacity: '0.9'
+      }}
+    >
       <Header />
       <ProductList products={products} />
     </div>
