@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import '../app/globals.css'
 import ProductList from '@/components/productList'
+import Header from '@/components/header'
 
 export default function Home () {
   const [products, setProducts] = useState([])
@@ -15,10 +16,11 @@ export default function Home () {
   }, [])
 
   return (
-    <div className='container mx-auto px-4 py-8 max-w-7xl'>
-      <h1 className='text-4xl font-bold mb-10 text-center text-gray-800'>
+    <div className=''>
+      {/* <h1 className='text-4xl font-bold mb-10 text-center text-gray-800'>
         Wivo Boards
-      </h1>
+      </h1> */}
+      <Header />
       <ProductList products={products} />
     </div>
   )
